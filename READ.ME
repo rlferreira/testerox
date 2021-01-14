@@ -6,9 +6,7 @@ em que consegui criar a instancia do banco de dados e disponibilizar para utiliz
 1 - Sobre a pergunta de modelagem conceitual, não ficou claro para mim se era esperado um modelo lógico ou um modelo conceitual entidade-relacionamento.
 Como a no meu entendimento já havia um modelo lógico na especificação do teste, optei por construir um modelo conceitual simples Entidade-Relacionamento.
 
-2 - a base de dados carregada está alocado no GCP, que pode ser acessado pelo cliente "cloud_sql_proxy" com a instrução :
-
-./cloud_sql_proxy -instances=testerox:us-central1:testerox=tcp:3306
+2 - a base de dados carregada está alocado no GCP, que pode ser acessado pelo cliente "cloud_sql_proxy"
 
 3 - Optei pela construção do script ETL em python, devido a facilidade e velocidade. Para execução, deve ser utilizado o python 3. Devem ser executados as instruções :
 
